@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta Tags -->
+<meta name="description" content="Let's have a Group Chat on Socket.Io Chat Application"/>
+    <title><%= title %></title>
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+        <section class="chat_section">
+          <div class="brand">
+                <img height="30" src="">
+                <h1>Wassup</h1>
+          </div>
+          <div class="message_area">
+          </div>
+          <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="write your message"></textarea>
+          </div>
+        </section>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/javascripts/client.js"></script>
+  </body>
+</html>
